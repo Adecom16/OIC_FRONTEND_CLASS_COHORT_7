@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        height: 50vh;
+    }
+    img{
+        width: 100%;
+        filter: brightness(0.5);
+    }
+    .nav{
+        position: absolute;
+        top: 0px;
+        display: flex;
+        gap: 900px;
+        /* right: 0px; */
+    }
+    button{
+       position: relative;
+       right: 0px;
+       height: 30px;
+       top: 40px;
+       background-color: red;
+       color: white;
+       border: none;
+       border-radius: 10px;
+       width: 90px;
+    }
+
+    .logo{
+        color: red;
+        /* padding: 25px; */
+        position: relative;
+        left: 150px;
+        font-size: 40px;
+        font-family: "Poppins";
+    }
+    .center{
+        text-align: center;
+
+    }
+    .hero_text{
+        text-align: center;
+        font-size: 50px;
+        font-family: "Poppins";
+        position: relative;
+        bottom: 550px;
+        color: white;
+    }
+
+    p{
+         position: relative;
+        bottom: 570px;  
+        color: white;
+        font-size: 20px;
+        font-family: "Poppins";
+    }
+    .ready{
+        font-size: 18px;
+             position: relative;
+        bottom: 530px;  
+    }
+
+    .input{
+        width: 300px;
+        height: 40px;
+        background-color: transparent;
+        outline: none;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+
+    .set{
+        position: relative;
+        bottom: 500px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .submit{
+        background-color: red;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        width: 150px;
+        position: relative;
+        top: 5px;
+        height: 40px;
+    }
+
+</style>
+<body>
+    <img src="netflix.jpg" alt="">
+    <div class="nav">
+        <h1 class="logo">NETFLIX</h1>
+        <button>Sign In</button>
+    </div>
+    <div class="center">
+        <h1 class="hero_text">Unlimited movies, <br> TV shows, and more</h1>
+        <p>Starts at ₦2,200. Cancel anytime.</p>
+        <p class="ready">Ready to watch? Enter your email to create or restart your membership.</p>
+      <div class="set">
+          <input class="input" type="email" placeholder="Email Address"><button class="submit">Get Started ></button>
+      </div>
+    </div>
+</body>
+</html>

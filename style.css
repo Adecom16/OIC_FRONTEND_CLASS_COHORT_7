@@ -1,0 +1,18 @@
+/* Starting CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Exile&display=swap');
+
+body{
+    /* background: rgb(122, 33, 33); */
+    background-image: url(Spaghetti_bolognese.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.hello{
+    color: blue;
+    font-size: 200px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: "Exile";
+}

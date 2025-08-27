@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins";
+}
+
+.header{
+    display: flex;
+    gap: 700px;
+    height: 50px;
+    background-color: rgb(227, 227, 236);
+    padding: 10px;
+}
+
+.left-nav{
+    display: flex;
+    gap: 30px;
+}
+
+.navbar{
+    display: flex;
+    gap: 510px;
+      height: 100px;
+    background-color: ghostwhite;
+}
+
+.logo{
+    padding-left: 70px;
+}
+
+.pages{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 30px;
+  
+}
+
+.pages a{
+    text-decoration: none;
+    color: black;
+}
+.hero img{
+    width: 100%;
+}
+
+@media screen and (max-width:800px) {
+    .header{
+        gap: 200px;
+    }
+    .text1{
+        font-size: 10px;
+    }
+    .text2{
+        font-size: 10px;
+    }
+    .navbar{
+        gap: 80px;
+        width: 100%;
+    }
+
+    .pages a{
+        font-size: 12px;
+    }
+    
+}

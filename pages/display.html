@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        height: 100vh;
+    }
+    .gparent{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .box{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+left: 0px;
+        background-color: aquamarine;
+    }
+
+    #box2{
+        z-index: 1;
+    }
+
+   img{
+    filter: brightness(0.3);
+   }
+   
+</style>
+<body>
+    <div class="gparent">
+        <div class="box" id="box2">Hello world</div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+    </div>
+
+    <img src="Spaghetti_bolognese.jpg" alt="">
+
+   
+</body>
+</html>
